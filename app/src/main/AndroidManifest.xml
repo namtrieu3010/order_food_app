@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.minhhung.apporderfood" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_baseline_fastfood_24"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <activity android:name="quangnam.ly.apporderfood.DangNhapActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="quangnam.ly.apporderfood.DangKyActivity" >
+
+        </activity>
+
+        <activity android:name="quangnam.ly.apporderfood.TrangChuActivity">
+
+        </activity>
+
+        <activity android:name="quangnam.ly.apporderfood.ThemBanAnActivity"
+            android:theme="@style/PopUpActivity"
+            >
+
+        </activity>
+
+        <activity android:name="quangnam.ly.apporderfood.ThemThucDonActivity">
+
+        </activity>
+
+        <activity android:name="quangnam.ly.apporderfood.ThemLoaiThucDonActivity"
+            android:theme="@style/PopUpActivity"
+            android:label="@string/loaithucdon"
+            >
+
+        </activity>
+
+        <activity android:name="quangnam.ly.apporderfood.SoLuongActivity"
+            android:theme="@style/PopUpActivity"
+            android:label="@string/soluong"
+            >
+
+        </activity>
+
+        <activity android:name="quangnam.ly.apporderfood.ThanhToanActivity">
+
+        </activity>
+
+        <activity android:name="quangnam.ly.apporderfood.SuaBanAnActivity"
+            android:theme="@style/PopUpActivity"
+            >
+        </activity>
+
+    </application>
+
+</manifest>
